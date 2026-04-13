@@ -1,0 +1,242 @@
+export const navLinks = [
+  { label: 'Collections', path: '/collections' },
+  { label: 'Projects', path: '/projects' },
+  { label: 'Services', path: '/services' },
+  { label: 'About', path: '/about' },
+  { label: 'Contact', path: '/contact' },
+];
+
+export const heroSlides = [
+  {
+    id: 1,
+    heading: 'Where Space\nBecomes Art',
+    subheading: 'Bespoke interiors crafted for those who refuse to settle',
+    image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1920&q=85',
+    accent: 'Living Spaces',
+  },
+  {
+    id: 2,
+    heading: 'Redefining\nLuxury Living',
+    subheading: 'Every detail tells the story of exceptional craftsmanship',
+    image: 'https://images.unsplash.com/photo-1600210492493-0946911123ea?w=1920&q=85',
+    accent: 'Bedrooms',
+  },
+  {
+    id: 3,
+    heading: 'The Art of\nRefined Taste',
+    subheading: 'Spaces that inspire, environments that endure',
+    image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1920&q=85',
+    accent: 'Kitchens',
+  },
+];
+
+export const collections = [
+  {
+    id: 1,
+    title: 'Modern Kitchens',
+    subtitle: 'Culinary Sanctuaries',
+    description: 'Where culinary artistry meets architectural excellence. Our kitchens redefine the heart of the home.',
+    image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80',
+    count: '24 Designs',
+    tag: 'Featured',
+  },
+  {
+    id: 2,
+    title: 'Designer Bedrooms',
+    subtitle: 'Private Retreats',
+    description: 'Intimate spaces designed for rest and rejuvenation. Where luxury meets the quietude of personal sanctuary.',
+    image: 'https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80',
+    count: '31 Designs',
+    tag: 'Popular',
+  },
+  {
+    id: 3,
+    title: 'Luxury Living Spaces',
+    subtitle: 'Grand Statements',
+    description: 'Living rooms that command attention. Expansive, elegant, and unmistakably refined.',
+    image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800&q=80',
+    count: '19 Designs',
+    tag: 'New',
+  },
+  {
+    id: 4,
+    title: 'Decorative Finishes',
+    subtitle: 'Artisanal Textures',
+    description: 'Wall treatments and surface finishes that transform every surface into a canvas of expression.',
+    image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80',
+    count: '42 Designs',
+    tag: 'Exclusive',
+  },
+  {
+    id: 5,
+    title: 'Bespoke Bathrooms',
+    subtitle: 'Spa Experiences',
+    description: 'Bathrooms conceived as private spas. Marble, light, and water in perfect harmony.',
+    image: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800&q=80',
+    count: '16 Designs',
+    tag: 'Trending',
+  },
+  {
+    id: 6,
+    title: 'Home Offices',
+    subtitle: 'Productive Elegance',
+    description: 'Where ambition meets aesthetics. Workspaces designed to inspire greatness.',
+    image: 'https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80',
+    count: '11 Designs',
+    tag: 'New',
+  },
+];
+
+export const services = [
+  {
+    id: 1,
+    title: 'Bespoke Design',
+    description: 'Every project begins with understanding you. We craft spaces that are uniquely yours — from concept to completion.',
+    icon: 'Compass',
+    stat: '500+ Projects',
+  },
+  {
+    id: 2,
+    title: 'Premium Materials',
+    description: 'We source only the finest materials globally — rare marbles, handcrafted woods, and exclusive textiles.',
+    icon: 'Gem',
+    stat: '200+ Suppliers',
+  },
+  {
+    id: 3,
+    title: 'Expert Planning',
+    description: 'Precise spatial planning with 3D visualization ensures every inch is optimised before a single nail is struck.',
+    icon: 'Layout',
+    stat: '15+ Years',
+  },
+  {
+    id: 4,
+    title: 'Luxury Experience',
+    description: 'A seamless, white-glove service from initial consultation through to final reveal and aftercare.',
+    icon: 'Star',
+    stat: '100% Satisfaction',
+  },
+  {
+    id: 5,
+    title: 'Interior Styling',
+    description: 'The final layer of luxury — curating art, accessories, and soft furnishings that complete your story.',
+    icon: 'Sparkles',
+    stat: '1000+ Items',
+  },
+  {
+    id: 6,
+    title: 'Project Management',
+    description: 'Seamless coordination of every artisan, contractor and supplier. Delivered on time, every time.',
+    icon: 'Clock',
+    stat: 'On-Time Delivery',
+  },
+];
+
+export const projects = [
+  {
+    id: 1,
+    title: 'The Meridian Villa',
+    location: 'Dubai, UAE',
+    category: 'Residential',
+    year: '2024',
+    area: '8,500 sq ft',
+    description: 'A breathtaking villa where desert luxury meets contemporary architectural vision. Marble, onyx, and gold define every surface.',
+    image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=900&q=80',
+    featured: true,
+  },
+  {
+    id: 2,
+    title: 'Obsidian Penthouse',
+    location: 'London, UK',
+    category: 'Penthouse',
+    year: '2024',
+    area: '5,200 sq ft',
+    description: 'Sky-high luxury above the London skyline. A penthouse that defines contemporary British opulence.',
+    image: 'https://images.unsplash.com/photo-1600210492493-0946911123ea?w=900&q=80',
+    featured: true,
+  },
+  {
+    id: 3,
+    title: 'Casa Bianca',
+    location: 'Milan, Italy',
+    category: 'Apartment',
+    year: '2023',
+    area: '3,800 sq ft',
+    description: 'Italian craftsmanship elevated to the sublime. White Carrara marble and aged bronze throughout.',
+    image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=900&q=80',
+    featured: false,
+  },
+  {
+    id: 4,
+    title: 'The Silk Road Residence',
+    location: 'Monaco',
+    category: 'Residential',
+    year: '2023',
+    area: '12,000 sq ft',
+    description: 'Where East meets West in perfect harmony. Handcrafted details inspired by the ancient Silk Road.',
+    image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=900&q=80',
+    featured: true,
+  },
+  {
+    id: 5,
+    title: 'Contemporary Loft',
+    location: 'New York, USA',
+    category: 'Loft',
+    year: '2023',
+    area: '2,900 sq ft',
+    description: 'Industrial bones, luxury soul. A Manhattan loft transformed into a monument of modern living.',
+    image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=900&q=80',
+    featured: false,
+  },
+  {
+    id: 6,
+    title: 'The Citadel Estate',
+    location: 'Paris, France',
+    category: 'Estate',
+    year: '2022',
+    area: '18,000 sq ft',
+    description: 'A Haussmann-era building reimagined for the modern aristocrat. History and luxury entwined.',
+    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=900&q=80',
+    featured: false,
+  },
+];
+
+export const materials = [
+  { id: 1, name: 'Calacatta Gold Marble', origin: 'Italy', image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80' },
+  { id: 2, name: 'Smoked Oak Veneer', origin: 'Scandinavia', image: 'https://images.unsplash.com/photo-1541123437800-1bb1317badc2?w=400&q=80' },
+  { id: 3, name: 'Aged Brass Hardware', origin: 'Germany', image: 'https://images.unsplash.com/photo-1585314614250-d213876625d1?w=400&q=80' },
+  { id: 4, name: 'Venetian Plaster', origin: 'Venice, Italy', image: 'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=400&q=80' },
+  { id: 5, name: 'Silk Velvet Fabric', origin: 'France', image: 'https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=400&q=80' },
+  { id: 6, name: 'Black Nero Marquina', origin: 'Spain', image: 'https://images.unsplash.com/photo-1616046229478-9901c5536a45?w=400&q=80' },
+];
+
+export const testimonials = [
+  {
+    id: 1,
+    name: 'Sophia Alderton',
+    title: 'CEO, Alderton Group',
+    text: 'AURUM transformed our penthouse into something beyond imagination. Every detail was considered, every material chosen with extraordinary care.',
+    avatar: 'https://images.unsplash.com/photo-1494790108755-2616b5e4d7a5?w=150&q=80',
+  },
+  {
+    id: 2,
+    name: 'James Harrington',
+    title: 'Private Client',
+    text: 'Working with AURUM was an experience in itself. They understood our vision before we could articulate it. Truly remarkable.',
+    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&q=80',
+  },
+  {
+    id: 3,
+    name: 'Isabella Marchetti',
+    title: 'Art Collector',
+    text: 'The attention to detail is unprecedented. They didn\'t just design a home — they created a living work of art.',
+    avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&q=80',
+  },
+];
+
+export const stats = [
+  { value: '500+', label: 'Projects Completed' },
+  { value: '15+', label: 'Years of Excellence' },
+  { value: '48', label: 'Design Awards' },
+  { value: '12', label: 'Countries Served' },
+];
